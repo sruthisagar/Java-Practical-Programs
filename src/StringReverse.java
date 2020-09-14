@@ -5,6 +5,7 @@ public class StringReverse
     public static void main(String[] args)
     {
         String str;
+//        String str = "programming";
         char temp;
         Scanner scanner = new Scanner(System.in);
 

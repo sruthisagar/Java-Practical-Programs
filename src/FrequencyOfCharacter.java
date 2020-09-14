@@ -6,6 +6,8 @@ public class FrequencyOfCharacter
     {
         String str;
         char ch;
+//        String str = "mississipi";
+//        char ch = 's';
         int freq=0;
         Scanner scanner = new Scanner(System.in);
 

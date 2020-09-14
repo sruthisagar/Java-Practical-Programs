@@ -5,6 +5,7 @@ public class PrimeOrNot
     public static void main(String args[])
     {
         int f=0;
+//        int n=23;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
