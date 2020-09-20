@@ -4,16 +4,19 @@ public class AreaOfShapes
 {
     static Scanner sc = new Scanner(System.in);
 
+//    circle
     public static float calculateArea(float radius)
     {
         return 3.14f*radius*radius;
     }
 
+//    rectangle
     public static float calculateArea(float length, float breadth)
     {
         return length*breadth;
     }
 
+//    triangle
     public static float calculateArea(float side1, float side2, float side3)
     {
         float s = (side1 + side2 + side3)/2;
@@ -38,7 +41,7 @@ public class AreaOfShapes
                     System.out.println("\nEnter the radius of the circle");
                     radius=sc.nextFloat();
                     area=calculateArea(radius);
-                    System.out.println("Area of the ciecle = "+area+" sq units");
+                    System.out.println("Area of the circle = "+area+" sq units");
                     break;
 
                 case 2:
