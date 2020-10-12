@@ -17,10 +17,14 @@ public class AreaOfShapes
     }
 
 //    triangle
-    public static float calculateArea(float side1, float side2, float side3)
+//    public static float calculateArea(float side1, float side2, float side3)
+    public static float calculateArea()
     {
-        float s = (side1 + side2 + side3)/2;
-        return (float) Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
+//        float s = (side1 + side2 + side3)/2;
+//        return (float) Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
+        float base=sc.nextFloat();
+        float height=sc.nextFloat();
+        return (float) 0.5*base*height;
     }
 
     public static void main(String[] args)
@@ -53,11 +57,13 @@ public class AreaOfShapes
                     break;
 
                 case 3:
-                    System.out.println("\nEnter the sides of the triangle");
-                    side1=sc.nextFloat();
-                    side2=sc.nextFloat();
-                    side3=sc.nextFloat();
-                    area=calculateArea(side1, side2, side3);
+//                    System.out.println("\nEnter the sides of the triangle");
+//                    side1=sc.nextFloat();
+//                    side2=sc.nextFloat();
+//                    side3=sc.nextFloat();
+//                    area=calculateArea(side1, side2, side3);
+                    System.out.println("\nEnter the base and height of the triangle");
+                    area=calculateArea();
                     System.out.println("Area of the triangle = "+area+" sq units");
                     break;
 
