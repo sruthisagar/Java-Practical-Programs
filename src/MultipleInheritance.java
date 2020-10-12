@@ -7,7 +7,7 @@ class Employees
 
     void printSalary()
     {
-        System.out.println("Salary of the employee is " + salary);
+        System.out.println("Salary: " + salary);
     }
 }
 
@@ -32,7 +32,7 @@ class Officer extends Employees
         System.out.println("Age: " + age);
         System.out.println("Phone number: " + phoneNo);
         System.out.println("Address: " + address);
-        System.out.println("Salary: " + salary);
+        this.printSalary();
         System.out.println("Specialization: " + specialization);
         System.out.println();
     }
@@ -59,7 +59,7 @@ class Manager extends Employees
         System.out.println("Age: " + age);
         System.out.println("Phone number: " + phoneNo);
         System.out.println("Address: " + address);
-        System.out.println("Salary: " + salary);
+        this.printSalary();
         System.out.println("Department: " + department);
         System.out.println();
     }
