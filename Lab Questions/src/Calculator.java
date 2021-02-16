@@ -1,6 +1,6 @@
 import java.awt.*;
-        import javax.swing.*;
-        import java.awt.event.*;
+import javax.swing.*;
+import java.awt.event.*;
 
 public class Calculator extends JFrame implements ActionListener
 {
@@ -10,6 +10,7 @@ public class Calculator extends JFrame implements ActionListener
     double no1=0, no2=0, result;
     String operator;
     String firstDigit = "";
+    
     public Calculator()
     {
         setTitle("Calculator");
