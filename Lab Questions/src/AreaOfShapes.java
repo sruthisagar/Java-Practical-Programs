@@ -29,7 +29,8 @@ public class AreaOfShapes
 
     public static void main(String[] args)
     {
-        float radius, length, breadth, side1, side2, side3, area;
+        float side2, side3, area;
+        float radius,length,breadth,side1;
         char ch;
 
         do
@@ -62,7 +63,8 @@ public class AreaOfShapes
 //                    side2=sc.nextFloat();
 //                    side3=sc.nextFloat();
 //                    area=calculateArea(side1, side2, side3);
-                    System.out.println("\nEnter the base and height of the triangle");
+                    System.out.println("\nEnter the base");
+                    System.out.println("\nEnter the height of the triangle");
                     area=calculateArea();
                     System.out.println("Area of the triangle = "+area+" sq units");
                     break;
