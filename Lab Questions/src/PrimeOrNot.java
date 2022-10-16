@@ -16,8 +16,8 @@ public class PrimeOrNot
             System.out.println(n+" is neither prime nor composite");
         else
         {
-            for (int i = 2; i <= n / 2; i++)
-                if (n % i == 0)
+            for (int k = 2; k <= n / 2; k++)
+                if (n % k == 0)
                 {
                     f = 1;
                     break;
