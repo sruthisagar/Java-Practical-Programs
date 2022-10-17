@@ -31,6 +31,9 @@ public class AbstractSides
 {
     public static void main(String[] args)
     {
+        
+        System.out.println("Implementation of Abstract Class in Java"); 
+        
         Rectangle rectangle = new Rectangle();
         Triangle triangle = new Triangle();
         Hexagon hexagon = new Hexagon();
@@ -38,5 +41,8 @@ public class AbstractSides
         rectangle.numberOfSides();
         triangle.numberOfSides();
         hexagon.numberOfSides();
+        
     }
-}
+} 
+
+// END 
