@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Factorial
 {
@@ -7,12 +7,12 @@ public class Factorial
         Scanner sc = new Scanner(System.in);
         int factorial = 1;
 
-        System.out.println("Enter a number");
+        System.out.println("Enter some number");
         int n = sc.nextInt();
 
-        for (int i=1; i<=n; i++)
+        for (int i=n; i>=1; i--)
             factorial*=i;
-
-        System.out.println(n+" factorial = "+factorial);
+        System.out.print(n+" factorial = ");
+        System.out.println(factorial);
     }
 }
